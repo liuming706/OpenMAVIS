@@ -74,7 +74,7 @@ PATH/TO/YOUR/timestamps.txt
 
 ./Examples/Multi-Inertial/multi_inertial_euroc Vocabulary/ORBvoc.txt Examples/Multi-Inertial/webots.yaml /home/lumen/workspace/datasets/four_cams_0703_1508_euroc/four_cams_0703_1508 /home/lumen/workspace/datasets/four_cams_0703_1508_euroc/four_cams_0703_1508/timestamps.txt
 # 双目 webots bag 
-./Examples/Stereo-Inertial/stereo_inertial_euroc Vocabulary/ORBvoc.txt Examples/Stereo-Inertial/webots.yaml /home/lumen/workspace/datasets/four_cams_0702_2248_euroc/four_cams_0702_2248 /home/lumen/workspace/datasets/four_cams_0702_2248_euroc/four_cams_0702_2248/timestamps.txt 
+./Examples/Stereo-Inertial/stereo_inertial_euroc Vocabulary/ORBvoc.txt Examples/Stereo-Inertial/webots.yaml /home/lumen/workspace/datasets/four_cams_0703_1508_euroc/four_cams_0703_1508 /home/lumen/workspace/datasets/four_cams_0703_1508_euroc/four_cams_0703_1508/timestamps.txt 
 ```
 
 ## Acknowledgements

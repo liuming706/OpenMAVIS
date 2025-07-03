@@ -4,7 +4,7 @@
 # Camera Parameters. Adjust them!
 #--------------------------------------------------------------------------------------------
 File.version: "1.0"
-loopClosing: 0
+loopClosing: 1
 Camera.type: "PinHole"
 
 # Camera calibration and distortion parameters (OpenCV) 
