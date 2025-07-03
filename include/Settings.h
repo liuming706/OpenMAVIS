@@ -191,7 +191,7 @@ namespace ORB_SLAM3 {
         bool bNeedToRectify_;
         bool bNeedToResize1_, bNeedToResize2_;
 
-        Sophus::SE3f Tlr_,Tsl_,Tsr_;
+        Sophus::SE3f Tlr_/*右目到左目*/,Tsl_/*左目到左侧*/,Tsr_/*右目到右侧*/;
         Sophus::SE3f Tlsl_,Tlsr_;
         float thDepth_;
         float bf_, b_;
@@ -208,7 +208,7 @@ namespace ORB_SLAM3 {
         float noiseGyro_, noiseAcc_;
         float gyroWalk_, accWalk_;
         float imuFrequency_;
-        Sophus::SE3f Tbc_, Tbcl_, Tbcr_;
+        Sophus::SE3f Tbc_/*左目到IMU*/, Tbcl_/*左侧到IMU*/, Tbcr_/*右侧到IMU*/;
         bool insertKFsWhenLost_;
 
         /*
